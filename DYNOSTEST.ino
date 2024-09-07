@@ -15,7 +15,7 @@ float alpha = 0;            // Percepatan sudut (rad/s²)
 float torque = 0;           // Torsi (Nm)
 float powerWatt = 0;        // Daya dalam watt (W)
 float powerHP = 0;          // Daya dalam horsepower (HP)
-const float inertia = 0.0625; // Momen inersia (kg·m²) untuk roller silinder pejal
+const float inertia = 0.0625; // Momen inersia (kg·m²) untuk roller silinder pejal bermassa = 50 kg
 const float pi = 3.14159265359;
 
 // Fungsi interrupt untuk menghitung putaran
