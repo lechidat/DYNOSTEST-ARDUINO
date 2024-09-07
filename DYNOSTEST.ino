@@ -1,3 +1,7 @@
+/*-----------------------------------------------
+DYNOTEST INI HANYA MENGGUNAKAN SATU SENSOR
+YAKNI SENSOR ENCODER PUTARAN ROLLER
+-----------------------------------------------*/
 // Konfigurasi pin sensor RPM
 const int sensorPin = 2;  // Pin sensor hall effect atau encoder
 volatile int rpmCount = 0;  // Hitungan RPM
